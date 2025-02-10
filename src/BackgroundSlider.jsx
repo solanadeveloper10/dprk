@@ -45,7 +45,8 @@ export default function BackgroundSlider() {
 
       {/* Content */}
       <div className="slider-content">
-        <h1>조선민주주의인민공화국 - 강성대국</h1>
+        <h1 lang="ko">조선민주주의인민공화국 - 강성대국</h1>
+        <h2>Democratic People&apos;s Republic of Korea - A strong and prosperous nation</h2>
       </div>
 
       {/* Navigation Buttons */}
