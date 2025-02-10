@@ -2,10 +2,10 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const images = [
-  "/images/bg1.png",
-  "/images/bg2.jpg",
-  "/images/bg3.jpg",
-  "/images/bg4.jpg",
+  "/images/bg1.webp",
+  "/images/bg2.webp",
+  "/images/bg3.webp",
+  "/images/bg4.webp",
 ];
 
 export default function BackgroundSlider() {
