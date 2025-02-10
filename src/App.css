@@ -4,6 +4,11 @@
 
   background-color: #ffffff;
 
+  background-image: url('/images/bg1-small.webp');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
   position: fixed;
   top: 0;
   left: 0;
@@ -91,11 +96,13 @@
 
   background: rgba(0, 0, 0, 0.5);
 
-  padding: 1rem 1.5rem;
+  padding: 0.5rem 0.5rem;
 
   border-radius: 10px;
 
   max-width: 95vw;
+
+  cursor: pointer;
 
   @media (max-width: 1024px) {
     margin-bottom: 7vh;
@@ -114,6 +121,11 @@
   text-align: center;
 
   color: #ffffff;
+
+  border: 3px dashed white;
+  border-radius: 10px;
+
+  padding: 0.5rem 1rem;
 }
 
 .copy-btn {

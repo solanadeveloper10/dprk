@@ -17,11 +17,11 @@ const Contract = () => {
   };
 
   return (
-    <div className={'contract-wrapper'}>
+    <div className={'contract-wrapper'} onClick={handleCopy}>
       {isCopied ? <p>Contract copied!</p> : <><p>
-        6T3MfPXSkwLHHXKSqDyFmDcpLJTi3JaCWqMBvEBDPRK
+        CA: 6T3MfPXSkwLHHXKSqDyFmDcpLJTi3JaCWqMBvEBDPRK
       </p>
-        <button onClick={handleCopy} className='copy-btn'>Copy</button>
+        {/* <button onClick={handleCopy} className='copy-btn'>Copy</button> */}
       </>}
     </div>
   )
